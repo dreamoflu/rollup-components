@@ -6,6 +6,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run clean && npm run build:esm && npm run build:umd",
+    "test": "",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "build1": "rollup --config build/rollup.config.js",
